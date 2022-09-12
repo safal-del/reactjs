@@ -1,0 +1,28 @@
+.bg-foo{
+    background-color: red;
+    width: 300px;
+    height: 400px;
+    background: url("./food.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+   
+   
+   
+  
+}
+
+.hover\:bg-bar:hover {
+    width: 300px;
+    height: 400px;
+    background: url("./fruit1.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    transform: rotateY(180deg); 
+   
+  
+
+}

@@ -1,0 +1,118 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    color: white;
+    padding: 10px 100px 10px 100px;
+}
+.footerLeft{
+    width: 30%;
+    text-align: justify;
+}
+
+.footerLeftContain > h6{
+    text-align: left!important;
+    
+}
+
+.footerMiddle{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.footerMiddle > div > ul > li{
+    padding: 10px 10px 10px 10px;
+    transition: 1s;
+}
+.footerMiddle > div > ul > li:hover{
+    color: Green;
+    background-color: white;
+    cursor: pointer;
+}
+
+.footerMiddle > div{
+    padding-left: 50px;
+}
+
+.footerRight{
+    width: 30%;
+}
+
+.footerRightRight > div > img{
+    width: 70px;
+    background-color: aliceblue;
+    margin: 5px;
+    transition: 0.5s;
+}
+.footerRightLeft > div > img{
+    width: 70px;
+    background-color: aliceblue;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.footerRightRight > div > img:hover{
+    width: 70px;
+    background-color: black;
+    margin: 5px;
+    transform: scale(1.5);
+    transition: 1s;
+    cursor: pointer;
+}
+.footerRightLeft > div > img:hover{
+    width: 70px;
+    background-color: black;
+    margin: 5px;
+    transform: scale(1.5);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.footerRightRight{
+    display: flex;
+    justify-content: center;
+}
+
+.footerRightLeft{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .footerLeft{
+        width: 100%;
+    }
+    .footerMiddle{
+        width: 100%;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px;
+        font-size: 12px;
+    }
+    .footerMiddle > div{
+        padding: 0px;
+    }
+    .footerRight{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+.bottomFooterContainer{
+    background-color: green;
+    color: white;
+    box-shadow: 0px 1px 5px black;
+    padding: 10px;
+}

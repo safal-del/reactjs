@@ -1,0 +1,32 @@
+.CardContent{
+    background-color: #000;
+}
+
+
+
+@media screen and (max-width: 760px){
+    .des_img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width:760px){
+    .image{
+        width: 100%;
+    }
+    .secdiv{
+        margin-top: 10px;
+        width: 100%;
+        /* margin-left: 10px; */
+    }
+    .descriptionbox{
+        
+        width: 100%;
+    }
+   
+    
+
+    
+}

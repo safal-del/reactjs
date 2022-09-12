@@ -1,0 +1,23 @@
+.singleProductContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.singleProductImage{
+    border: solid 2px #ccc;
+}
+
+.singleProductImage > img{
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+}
+
+.singleProductDescription > h3{
+    font-size: 32px;
+    text-align: left;
+}
