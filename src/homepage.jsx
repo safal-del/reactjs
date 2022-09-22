@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 // import  { useState } from "react";
-import { FaHeart } from "react-icons/fa";
+import { FaHeart, FaShoppingCart } from "react-icons/fa";
 import './App.css';
 import Image from "./food.jpg";
 import data from "./data";
@@ -13,6 +13,8 @@ const Homepage = () => {
    let initialstate = useContext(auth);
     let changestate = initialstate.Showdata;
     let changeTitle = initialstate.ShowTitle;
+    let changeCart = initialstate.changeTheState;
+    let cartdebug = initialstate.Cart;
     console.log(changestate);
      
      const navigate = useNavigate();
@@ -29,11 +31,25 @@ const Homepage = () => {
      function Navigatetoproduct(){
       navigate("/product");
      }
+     function Navigatetocart(){
+      navigate("/cart");
+     }
+
+
      function changetate(props){
        changestate(props.id);
        changeTitle(props.title);
 
      }
+
+     function cartStateChange(items){
+      changeCart(items);
+      console.log(cartdebug);
+
+      
+
+     }
+
 
    
    
@@ -48,7 +64,7 @@ const Homepage = () => {
       <div className='flex justify-evenly pt-1'>
         <FaHeart  style={{color:"green"}}/>
         <FaHeart style={{color:"green"}}/>
-        <FaHeart style={{color:"green"}}/>
+        <FaShoppingCart onClick={() =>cartStateChange(items)} style={{color:"green"}}/>
 
 
       </div>
@@ -67,7 +83,7 @@ const Homepage = () => {
     <div className="w-48 flex justify-evenly  mt-2">
       <FaHeart style={{color:"white"}} />
       <FaHeart style={{color:"white"}} />
-      <FaHeart  style={{color:"white"}}/>
+      <FaShoppingCart onClick={Navigatetocart}  style={{color:"white"}}/>
     </div>
     
    

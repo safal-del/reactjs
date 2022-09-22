@@ -9,6 +9,7 @@ import { Routes, Route } from "react-router-dom";
 import RelatedProduct from "./relatedproduct";
 import Product from "./Products/product";
 import GridProducts from "./GridProducts";
+import CartPage from "./AddToCart/AddToCart";
 
 
 
@@ -36,6 +37,7 @@ function App() {
       <Route path="/related" element ={<RelatedProduct />} />
       <Route path="/product" element ={<Product/>}/>
       <Route path="/gridproduct" element ={<GridProducts/>} />
+      <Route path="/cart" element ={<CartPage/>} />
       </Routes>  
     
       </Contextkk>

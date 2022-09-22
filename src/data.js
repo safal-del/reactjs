@@ -60,3 +60,5 @@
 
     export default Datas;
     
+   export let AddToCartdata = [];
+ 
