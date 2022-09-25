@@ -151,7 +151,7 @@ const Singleproduct = () => {
                 <div className="mt-5 flex">
                   {" "}
                   <div className="bg-red-700 w-8 h-8 p-1"></div>
-                  <div className="bg-green-700 w-8 h-8 p-1 ml-1.5 "></div>
+                  <div className="bg-mid w-8 h-8 p-1 ml-1.5 "></div>
                   <div className="bg-yellow-700 w-8 h-8 p-1 ml-1.5"></div>
                 </div>
                 <div className="mt-5">
@@ -186,16 +186,16 @@ const Singleproduct = () => {
           </div>
           <div className="btndiv mt-10">
             <div className="addtocart_buynow">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
-              <button className="btn1 ml-2 pt-2.5 pb-2.5 pl-4 pr-4 rounded-3xl bg-green-500  ">
+              <button className="btn1 ml-2 pt-2.5 pb-2.5 pl-4 pr-4 rounded-3xl bg-mid  ">
                 Buy now
               </button>
             </div>
 
             <div className="pt-3">
-              <button className="btn2 p-2.5 pl-3.5 pl-3.5 rounded-3xl bg-green-500 ">
+              <button className="btn2 p-2.5 pl-3.5 pl-3.5 rounded-3xl bg-mid ">
                 Add to Wishlist
               </button>
             </div>
@@ -215,7 +215,7 @@ const Singleproduct = () => {
           <div className="add_tocart">
             <button
               onClick={() => setRecent(review)}
-              className="bg-green-600 rounded pl-10 pr-10 pt-2 pb-2 ml-1"
+              className="bg-mid rounded pl-10 pr-10 pt-2 pb-2 ml-1"
             >
               Reviews
             </button>
@@ -295,7 +295,7 @@ const Singleproduct = () => {
               <h6 className="text-center text-2xl">$400</h6>
             </div>
             <div className="flex justify-center mt-2">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
             </div>
@@ -336,7 +336,7 @@ const Singleproduct = () => {
               <h6 className="text-center text-2xl">$400</h6>
             </div>
             <div className="flex justify-center mt-2">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
             </div>
@@ -376,7 +376,7 @@ const Singleproduct = () => {
               <h6 className="text-center text-2xl">$400</h6>
             </div>
             <div className="flex justify-center mt-2">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
             </div>
@@ -416,7 +416,7 @@ const Singleproduct = () => {
               <h6 className="text-center text-2xl">$400</h6>
             </div>
             <div className="flex justify-center mt-2">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
             </div>
@@ -456,7 +456,7 @@ const Singleproduct = () => {
               <h6 className="text-center text-2xl">$400</h6>
             </div>
             <div className="flex justify-center mt-2">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
             </div>
@@ -496,7 +496,7 @@ const Singleproduct = () => {
               <h6 className="text-center text-2xl">$400</h6>
             </div>
             <div className="flex justify-center mt-2">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
             </div>
@@ -536,7 +536,7 @@ const Singleproduct = () => {
               <h6 className="text-center text-2xl">$400</h6>
             </div>
             <div className="flex justify-center mt-2">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
             </div>
@@ -576,7 +576,7 @@ const Singleproduct = () => {
               <h6 className="text-center text-2xl">$400</h6>
             </div>
             <div className="flex justify-center mt-2">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
             </div>
@@ -616,7 +616,7 @@ const Singleproduct = () => {
               <h6 className="text-center text-2xl">$400</h6>
             </div>
             <div className="flex justify-center mt-2">
-              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-green-500 ">
+              <button className="btn pt-2.5 pb-2.5 pl-5 pr-5 rounded-3xl bg-mid ">
                 Add to Cart
               </button>
             </div>

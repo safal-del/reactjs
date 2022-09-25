@@ -15,6 +15,7 @@ const Homepage = () => {
     let changeTitle = initialstate.ShowTitle;
     let changeCart = initialstate.changeTheState;
     let cartdebug = initialstate.Cart;
+    let Editdata = initialstate.EditData
     console.log(changestate);
      
      const navigate = useNavigate();
@@ -34,6 +35,12 @@ const Homepage = () => {
      function Navigatetocart(){
       navigate("/cart");
      }
+     function NavigateToEditProfile(){
+      navigate("/editprofile")
+
+
+
+     }
 
 
      function changetate(props){
@@ -45,10 +52,15 @@ const Homepage = () => {
      function cartStateChange(items){
       changeCart(items);
       console.log(cartdebug);
-
-      
-
      }
+     
+     function EditProfiles(data){
+      NavigateToEditProfile();
+      Editdata(data);
+       
+       
+      
+    }
 
 
    
@@ -59,12 +71,13 @@ const Homepage = () => {
      
 
       }}>
-       <div className='w-20 bg-green-600'><p className='pl-2'>Dis 10%</p></div>
+       <div className='w-20 bg-mid'><p className='pl-2'>Dis 10%</p></div>
        <img src={Image}  onClick ={NavigateToSingle} alt = "foodify groceries"/>
       <div className='flex justify-evenly pt-1'>
-        <FaHeart  style={{color:"green"}}/>
-        <FaHeart style={{color:"green"}}/>
-        <FaShoppingCart onClick={() =>cartStateChange(items)} style={{color:"green"}}/>
+        <FaHeart  style={{color:"#89c74a"}}/>
+        <FaHeart style={{color:"#89c74a"}}/>
+        <FaShoppingCart onClick={() =>cartStateChange(items)} style={{color:"#89c74a"}}/>
+        <button onClick={() => EditProfiles(items)} style={{color:"#89c74a"}}> EditProduct </button>
 
 
       </div>
@@ -78,7 +91,7 @@ const Homepage = () => {
     
   return (
     <div>
-        <div className=" bg-green-600 h-10 bg-green-600  flex justify-between" >
+        <div className=" bg-mid h-10   flex justify-between" >
     <h1 className="font-semibold text-2xl text-white pt-1.5 pl-4 font-mono" > Foodfy</h1>
     <div className="w-48 flex justify-evenly  mt-2">
       <FaHeart style={{color:"white"}} />
@@ -96,7 +109,7 @@ const Homepage = () => {
         <h1 className="text-white text-6xl font-semibold font-mono text-center pt-20"> Complete grocery <br/> in your doorstep</h1>
         </div>
         <div className=" pt-10 flex justify-center ">
-          <div><button className="rounded-2xl text-white bg-green-600 border-8 border-green-600 hover:bg-red-700 hover:border-red-700">Register now</button></div>
+          <div><button className="rounded-2xl text-white bg-mid border-8 border-mid hover:bg-red-700 hover:border-red-700">Register now</button></div>
           <div className="pl-4"><button className=" text-white border-8 border-gray-500 rounded-2xl bg-gray-500 hover:bg-red-700 hover:border-red-700"> Shop now</button></div>
 
         </div>

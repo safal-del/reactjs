@@ -84,7 +84,7 @@ const Product = () => {
   //sort by price
   function sortbyprice(fp, sp) {
     setProduct(Datas);
-    let nedata = productstate.filter(function (value) {
+    let nedata = Datas.filter(function (value) {
       if (value.price > fp && value.price < sp) {
         console.log(value);
         return value;
@@ -191,7 +191,7 @@ const Product = () => {
      
       
        
-     if(i<3){
+     if(i<5){
       return (
         <div className=" w-full h-68 md:w-48   bg-git md:h-68 ml-3 pb-2 rounded drop-shadow-sm">
           { 

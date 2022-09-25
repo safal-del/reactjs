@@ -1,7 +1,7 @@
  let  Datas = [
     {
       "albumId": 1,
-      "id": 1,
+      "id": 0,
       "title": "accusamus beatae ad facilis cum similique qui sunt",
       "price":120,
       "brand":"samsung",
@@ -12,7 +12,7 @@
     },
     {
       "albumId": 1,
-      "id": 2,
+      "id": 1,
       "title": "reprehenderit est deserunt velit ipsam",
       "price":110,
       "brand":"samsung",
@@ -22,7 +22,7 @@
     },
     {
       "albumId": 1,
-      "id": 3,
+      "id": 2,
       "title": "officia porro iure quia iusto qui ipsa ut modi",
       "price":150,
       "brand":"nokia",
@@ -32,7 +32,7 @@
     },
     {
       "albumId": 1,
-      "id": 4,
+      "id": 3,
       "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
       "price":189,
       "brand": "nokia",
@@ -41,7 +41,7 @@
     },
     {
       "albumId": 1,
-      "id": 5,
+      "id": 4,
       "title": "natus nisi omnis corporis facere molestiae rerum in",
       "price":320,
       "brand":"nokia",
@@ -50,7 +50,7 @@
     },
     {
       "albumId": 1,
-      "id": 6,
+      "id": 5,
       "title": "natus nisi omnis corporis facere molestiae rerum in",
       "price":400,
       "brand":"samsung",

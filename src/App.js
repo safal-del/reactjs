@@ -10,6 +10,8 @@ import RelatedProduct from "./relatedproduct";
 import Product from "./Products/product";
 import GridProducts from "./GridProducts";
 import CartPage from "./AddToCart/AddToCart";
+import  EditProduct  from "./EditProduct";
+import EditedProduct from "./EditedProduct";
 
 
 
@@ -38,6 +40,9 @@ function App() {
       <Route path="/product" element ={<Product/>}/>
       <Route path="/gridproduct" element ={<GridProducts/>} />
       <Route path="/cart" element ={<CartPage/>} />
+      <Route path="/editprofile" element ={<EditProduct/>} />
+      <Route path="/context" element ={<Contextkk/>} />
+      <Route path="/editedproduct" element ={<EditedProduct/>} />
       </Routes>  
     
       </Contextkk>
